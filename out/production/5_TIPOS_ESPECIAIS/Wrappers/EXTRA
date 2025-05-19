@@ -1,0 +1,2 @@
+->Benefício das classes Wrappers: quando criamos uma classe com um atributo int, não podemos atribuir null, pois é tipo
+primitivo, entretanto classes podem ser nulas, então com Integer, podemos ter null;

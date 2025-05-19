@@ -1,0 +1,29 @@
+-> Quando temos uma classe implementando mais de uma interface, podemos ter a mesma assinatura de métodos em ambas as
+interfaces, sendo assim, temos o chamado diamond problem. Quando isso ocorre, precisamos escolher quem iremos usar;
+Ex.:
+public interface Animal {
+    default void falar (){
+        return ...
+    }
+    ...
+}
+
+public interface Humano {
+    default void falar (){
+           return ...
+    }
+    ...
+}
+
+public class Pessoa implements Animal, Humano {
+    // e agora, o que fazer? escolhemos qual dos dois usar, ou podemos sobrescrever o método!
+    //sobrescrevendo
+    @Override
+    void falar (String s){
+        ...
+    }
+    //escolhendo um
+    void falar (){
+        return Animal.super.falar();
+    }
+}

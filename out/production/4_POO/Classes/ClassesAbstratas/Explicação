@@ -1,0 +1,12 @@
+-> Classes abstratas não podem ser instanciadas, mas podem ser extendindas;
+-> Métodos abstratos podem ser implementados na classe que a herda;
+
+-> Classe abstrata pode ou não ter métodos abstratos! Porém se a classe possui métodos abstratos é obrigatório que a
+classe seja abstrato
+
+-> A subclasse é obrigada a implementar os métodos abstratos!
+
+-> Regra de implementação de métodos abstratos: a primeira classe não abstrata a herdar a classe com métodos abstratos
+precisa implementá-los. É opcional fazer uma implementação intermediária. Ex.: pessoa implementa A, e A implementa B;
+B possui um método abstrato; A e B são abstratas; A poderia implementar o método abstrato, sendo assim pessoa poderia ou não
+fazer o override.

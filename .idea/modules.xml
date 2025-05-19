@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2_PROGRAMA_COM_INTELIJ/2_PROGRAMA_COM_INTELIJ.iml" filepath="$PROJECT_DIR$/2_PROGRAMA_COM_INTELIJ/2_PROGRAMA_COM_INTELIJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_BASIC_JAVA/3_BASIC_JAVA.iml" filepath="$PROJECT_DIR$/3_BASIC_JAVA/3_BASIC_JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_POO/4_POO.iml" filepath="$PROJECT_DIR$/4_POO/4_POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_TIPOS_ESPECIAIS/5_TIPOS_ESPECIAIS.iml" filepath="$PROJECT_DIR$/5_TIPOS_ESPECIAIS/5_TIPOS_ESPECIAIS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_TEXTOS_E_NUMEROS/6_TEXTOS_E_NUMEROS.iml" filepath="$PROJECT_DIR$/6_TEXTOS_E_NUMEROS/6_TEXTOS_E_NUMEROS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_COLECOES_DE_DADOS/7_COLECOES_DE_DADOS.iml" filepath="$PROJECT_DIR$/7_COLECOES_DE_DADOS/7_COLECOES_DE_DADOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ACTIVITIES/ACTIVITIES.iml" filepath="$PROJECT_DIR$/ACTIVITIES/ACTIVITIES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curso_Java.iml" filepath="$PROJECT_DIR$/Curso_Java.iml" />
+    </modules>
+  </component>
+</project>

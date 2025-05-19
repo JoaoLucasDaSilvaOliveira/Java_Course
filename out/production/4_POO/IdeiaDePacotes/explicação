@@ -1,0 +1,39 @@
+-> Normalmente os pacotes espelham o domínio da empresa, à fim de quando houver muitos imports de código, não se perca ou confunda ou quebre esses imports. Ex.: br.com.estudandoJava
+
+-> Em questão de diretórios, no pc haverá a pasta br, dentro dela a pastam com, e dentro dessa a pasta estudandoJava, e assim por diante.
+
+-> Fully Qualified Name: nome de fato da classe. Quando trabalhamos com pacotes, o src só é visível dentro do mesmo pacote. Quando tratamos de pacotes diferentes precisamos dizer o nome completo da classe que queremos acessar. EX
+Src
+|
+|--br.com.estudandoJava.account
+|   |-Account.java
+|
+|--br.com.estudandoJava.principal
+    |-Main.java
+
+Caso estejamos no método main:
+    1)
+    package br.com.estudandoJava.principal
+    public class Main (){
+        public static void main (String args []){
+            //é necessário acessar usando o nome completo da classe
+            br.com.estudandoJava.account.Account conta = new br.com.estudandoJava.account.Account();
+        }
+    }
+    2)
+    package br.com.estudandoJava.principal
+    //podemos importar a classe ou importar o pacote como um tod_o
+    import br.com.estudandoJava.account.*
+                    //ou
+    //podemos importar apenas uma classe em específico
+    import br.com.estudandoJava.account.Account
+        public class Main (){
+            public static void main (String args []){
+                //é necessário acessar usando o nome completo da classe
+                br.com.estudandoJava.account.Account conta = new br.com.estudandoJava.account.Account();
+            }
+        }
+
+-> Visibilidade de pacote: quando não declaramos como public, a visibilidade da classe toma um valor default de visibilidade: package. Sendo assim, só pode ser acessada dentro do respectivo pacote.
+
+-> Import static: importando elementos estáticos de uma classe. Ex.: classe Copo tem public static final String material = "Vidro"; Podemos importar esse elemento estático para não precisar fazer String mat = Copo.material. Fazemos import static nome.do.pacote.Copo.material . Assim podemos fazer apenas String mat = material. Podemos importar também todos os elementos estáticos com *, ex import static nome.do.pacote.Copo.*

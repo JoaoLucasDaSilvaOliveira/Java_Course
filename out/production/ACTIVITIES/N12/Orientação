@@ -1,0 +1,6 @@
+-> Crie uma Interface que da acesso a um sistema de login
+-> Métodos: login que recebe as credenciais de acesso: username e password e retorna um booleano indicando se o usuário
+foi logado com sucesso
+-> Crie duas formas de login ---> aceita o login se o user e o pass forem uma string em especifico
+                              |
+                              --> aceita o login caso o user e o pass forem iguais
