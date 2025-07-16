@@ -1,0 +1,2 @@
+Main-Class: _2_StreamDeDados._3_LendoDados
+Class-Path: pdfbox-app-3.0.5.jar

@@ -1,0 +1,6 @@
+Dentro da manipulação de arquivos temos duas partes: entrada de dados e saída de dados
+ENTRADA: Reader e InputOutStream;
+SAÍDA: Writer e OutputOutStream;
+
+Com Reader e Writer trabalhamos com caracteres de fato, de forma que nós humanos conseguimos ler;
+Já as Streams trabalham com bytes, assemelha-se com C no quesito de trabalhar com bloco de dados.

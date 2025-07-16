@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="9_MANIPULACAO_DE_ARQUIVOS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/9_MANIPULACAO_DE_ARQUIVOS_jar</output-path>
+    <root id="archive" name="9_MANIPULACAO_DE_ARQUIVOS.jar">
+      <element id="module-output" name="9_MANIPULACAO_DE_ARQUIVOS" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/pdfbox-app-3.0.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

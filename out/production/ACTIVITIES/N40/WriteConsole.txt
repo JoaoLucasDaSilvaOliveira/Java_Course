@@ -1,0 +1,3 @@
+veja
+esse é um texto via console
+muito divertido, não? :)

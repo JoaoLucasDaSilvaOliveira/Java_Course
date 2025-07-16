@@ -1,0 +1,1 @@
+Texto abstraído usando classes específicas

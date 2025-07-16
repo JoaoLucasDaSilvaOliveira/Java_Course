@@ -1,16 +1,18 @@
 package _5_Dividindo_Strings_em_Tokens;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class App {
     public static void main(String[] args) {
+        /*
         String text = "a,b1,c,d";
         String t = "a1b2c33f5";
         String[] tokens = text.split(","); // procura e faz a quebra na ,
         String[] tokens2 = t.split("\\d+"); // procura por 1 ou mais dígitos numéricos
         System.out.println(Arrays.toString(tokens));
         System.out.println(Arrays.toString(tokens2));
+
+
 
         //outra forma de fazer:
         Scanner scan = new Scanner(text);
@@ -25,5 +27,6 @@ public class App {
             int e = scanner.nextInt();
             System.out.printf("%d - ", e);
         }
+        */
     }
 }
