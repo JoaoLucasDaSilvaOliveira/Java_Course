@@ -1,0 +1,14 @@
+São classes dentro de classes:
+public class Avião {
+    //classe
+}
+
+class Carro{
+    //é uma inner class de Avião
+}
+
+Temos algumas vertentes:
+1. Regular/Nested Inner Class;
+2. Static Nested/Inner Class;
+3. Local/Method Inner Class;
+4. Anonymous Inner Class.

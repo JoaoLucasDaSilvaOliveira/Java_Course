@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_INNER_CLASSES/10_INNER_CLASSES.iml" filepath="$PROJECT_DIR$/10_INNER_CLASSES/10_INNER_CLASSES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_EXPRESSOES_LAMBDA/11_EXPRESSOES_LAMBDA.iml" filepath="$PROJECT_DIR$/11_EXPRESSOES_LAMBDA/11_EXPRESSOES_LAMBDA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_GENERICS/12_GENERICS.iml" filepath="$PROJECT_DIR$/12_GENERICS/12_GENERICS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_EXPRESSOES_LAMBDA/12_STREAM_API/12_STREAM_API.iml" filepath="$PROJECT_DIR$/11_EXPRESSOES_LAMBDA/12_STREAM_API/12_STREAM_API.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_PROGRAMA_COM_INTELIJ/2_PROGRAMA_COM_INTELIJ.iml" filepath="$PROJECT_DIR$/2_PROGRAMA_COM_INTELIJ/2_PROGRAMA_COM_INTELIJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_BASIC_JAVA/3_BASIC_JAVA.iml" filepath="$PROJECT_DIR$/3_BASIC_JAVA/3_BASIC_JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/4_POO/4_POO.iml" filepath="$PROJECT_DIR$/4_POO/4_POO.iml" />
