@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/13_LOGGING/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_SERIALIZACAO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_ANNOTATIONS/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_ReflexionAPI/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_I18N/Resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/17_I18N/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_I18N/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/1_PRIMEIRO_PROGRAMA_JAVA" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

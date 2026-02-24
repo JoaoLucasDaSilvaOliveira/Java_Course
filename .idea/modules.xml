@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/11_EXPRESSOES_LAMBDA/11_EXPRESSOES_LAMBDA.iml" filepath="$PROJECT_DIR$/11_EXPRESSOES_LAMBDA/11_EXPRESSOES_LAMBDA.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_GENERICS/12_GENERICS.iml" filepath="$PROJECT_DIR$/12_GENERICS/12_GENERICS.iml" />
       <module fileurl="file://$PROJECT_DIR$/11_EXPRESSOES_LAMBDA/12_STREAM_API/12_STREAM_API.iml" filepath="$PROJECT_DIR$/11_EXPRESSOES_LAMBDA/12_STREAM_API/12_STREAM_API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18_MODULARIZACAO/18_MODULARIZACAO.iml" filepath="$PROJECT_DIR$/18_MODULARIZACAO/18_MODULARIZACAO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_Threads/19_Threads.iml" filepath="$PROJECT_DIR$/19_Threads/19_Threads.iml" />
       <module fileurl="file://$PROJECT_DIR$/2_PROGRAMA_COM_INTELIJ/2_PROGRAMA_COM_INTELIJ.iml" filepath="$PROJECT_DIR$/2_PROGRAMA_COM_INTELIJ/2_PROGRAMA_COM_INTELIJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_BASIC_JAVA/3_BASIC_JAVA.iml" filepath="$PROJECT_DIR$/3_BASIC_JAVA/3_BASIC_JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/4_POO/4_POO.iml" filepath="$PROJECT_DIR$/4_POO/4_POO.iml" />
@@ -17,6 +19,10 @@
       <module fileurl="file://$PROJECT_DIR$/ACTIVITIES/ACTIVITIES.iml" filepath="$PROJECT_DIR$/ACTIVITIES/ACTIVITIES.iml" />
       <module fileurl="file://$PROJECT_DIR$/BOOTCAMPS/BOOTCAMPS.iml" filepath="$PROJECT_DIR$/BOOTCAMPS/BOOTCAMPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/Curso_Java.iml" filepath="$PROJECT_DIR$/Curso_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotatios/annotatios.iml" filepath="$PROJECT_DIR$/annotatios/annotatios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18_MODULARIZACAO/app/app.iml" filepath="$PROJECT_DIR$/18_MODULARIZACAO/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18_MODULARIZACAO/security/security.iml" filepath="$PROJECT_DIR$/18_MODULARIZACAO/security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18_MODULARIZACAO/securityImpl/securityImpl.iml" filepath="$PROJECT_DIR$/18_MODULARIZACAO/securityImpl/securityImpl.iml" />
     </modules>
   </component>
 </project>

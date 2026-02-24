@@ -1,0 +1,2 @@
+Quando criamos uma annotation que pode ser usada repetidas vezes, a anotamos com @Repeatable.
+Essa annotation espera receber uma value com uma classe que extende Annotation

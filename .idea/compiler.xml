@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Curso_Java" />
+        <module name="POKEMON_BATTLEFIELD" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="12_GENERICS" target="23" />
       <module name="12_Generics" target="23" />
+      <module name="annotatios" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>

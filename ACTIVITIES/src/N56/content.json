@@ -1,0 +1,19 @@
+{
+  "books" : [
+    {
+      "titulo": "pequeno principe",
+      "isbn": "123456",
+      "num_pag": 250
+    },
+    {
+      "titulo": "medio principe",
+      "isbn": "78910",
+      "num_pag": 350
+    },
+    {
+      "titulo": "grande principe",
+      "isbn": "11111111",
+      "num_pag": 450
+    }
+  ]
+}

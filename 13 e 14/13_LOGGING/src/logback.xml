@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <timestamp key="dateTimeFormat" datePattern="HH-mm"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.out</target> <!--OutputStream padrão-->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                <!--Como estilizar as mensagens no console, ver documentação para mais informações-->
+                %green(%d{HH:mm:ss}) %highlight(%-5level) %logger{36} - %boldWhite(%msg%n)
+            </Pattern>
+        </encoder>
+    </appender>
+
+<!--    <appender name="FILE" class="ch.qos.logback.core.FileAppender">-->
+<!--        <file>13_LOGGING/src/logs/file1.log</file>-->
+<!--        <append>true</append> &lt;!&ndash;Padrão é true, se colocar false sempre sobrescreve o que tem no arqv&ndash;&gt;-->
+<!--        <immediateFlush>true</immediateFlush> &lt;!&ndash;Padrão é true, se colocar false salva em blocos - pode ser mais performático&ndash;&gt;-->
+<!--        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+<!--            <level>ERROR</level>-->
+<!--        </filter>-->
+<!--        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+<!--            <Pattern>-->
+<!--                %d{HH:mm:ss} %-5level %logger{36} - %msg%n-->
+<!--            </Pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+<!--    <appender name="FILE_COM_TIMESTAMP" class="ch.qos.logback.core.FileAppender">-->
+<!--        <file>13_LOGGING/src/logs/log_${dateTimeFormat}.log</file>-->
+<!--        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">-->
+<!--            <Pattern>-->
+<!--                %d{HH:mm:ss} %-5level %logger{36} - %msg%n-->
+<!--            </Pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+    <appender name="FILE_COM_ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+        <file>13_LOGGING/src/logs/rolling-file-appender.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>13_LOGGING/src/logs/rolling-file-appender_%d{mm}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{HH:mm:ss} %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="logging" level="trace" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+<!--        <appender-ref ref="FILE"/>-->
+    </logger>
+
+    <logger name="rolling" level="warn" additivity="false">
+        <appender-ref ref="FILE_COM_ROLLING"/>
+    </logger>
+
+</configuration>

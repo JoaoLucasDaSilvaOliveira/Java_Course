@@ -1,0 +1,10 @@
+Os logs possuem niveis hierarquicos, os levels
+
+Temos:
+    - TRACE  |
+    - DEBUG  |
+    - INFO   | Direção da hierarquia
+    - WARN   |
+    - ERROR  V
+
+Então: o level TRACE abrange todos, o DEBUG abrange de INFO em diante e assim segue.
